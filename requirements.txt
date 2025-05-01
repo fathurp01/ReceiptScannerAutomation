@@ -1,0 +1,10 @@
+django>=4.2
+djangorestframework
+django-cors-headers
+pillow
+pytesseract
+opencv-python
+numpy
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib

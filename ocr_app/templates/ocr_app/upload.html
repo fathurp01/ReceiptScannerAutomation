@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Struk</title>
+</head>
+<body>
+  <h2>Upload Gambar Struk</h2>
+  <form method="POST" enctype="multipart/form-data" action="/api/scan/">
+    {% csrf_token %}
+    <input type="file" name="file" accept="image/*" required>
+    <button type="submit">Upload</button>
+  </form>
+</body>
+</html>
