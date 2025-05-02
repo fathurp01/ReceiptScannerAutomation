@@ -31,8 +31,8 @@ Sistem web berbasis Django + React untuk melakukan ekstraksi data dari gambar st
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/username/receipt-scanner.git
-cd receipt-scanner
+git clone https://github.com/fathurp01/ReceiptScannerAutomation.git
+cd receiptScannerAutomation
 ```
 
 ### 2. Setup Backend
